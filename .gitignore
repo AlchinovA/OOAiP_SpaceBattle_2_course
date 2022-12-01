@@ -395,4 +395,4 @@ FodyWeavers.xsd
 
 coveragereport/*
 
-ICommand.cs
+ICommand.cs/*
