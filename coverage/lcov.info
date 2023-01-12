@@ -13,10 +13,10 @@ DA:34,1
 BRDA:26,59,1,1
 BRDA:26,59,0,1
 FN:36,System.Boolean VectorSpaceBattle.Vector::Equals(System.Object)
-FNDA:5,System.Boolean VectorSpaceBattle.Vector::Equals(System.Object)
-DA:37,5
-DA:38,5
-DA:39,5
+FNDA:6,System.Boolean VectorSpaceBattle.Vector::Equals(System.Object)
+DA:37,6
+DA:38,6
+DA:39,6
 FN:41,System.Int32 VectorSpaceBattle.Vector::GetHashCode()
 FNDA:1,System.Int32 VectorSpaceBattle.Vector::GetHashCode()
 DA:42,1
@@ -141,23 +141,23 @@ DA:153,2
 DA:154,2
 DA:155,2
 FN:7,System.Void VectorSpaceBattle.Vector::.ctor(System.Int32[])
-FNDA:53,System.Void VectorSpaceBattle.Vector::.ctor(System.Int32[])
-DA:8,53
-DA:9,53
-DA:10,53
+FNDA:58,System.Void VectorSpaceBattle.Vector::.ctor(System.Int32[])
+DA:8,58
+DA:9,58
+DA:10,58
 DA:11,1
 DA:12,1
-DA:14,52
-DA:15,52
-DA:16,338
-DA:17,117
-DA:18,117
-DA:19,117
-DA:20,52
+DA:14,57
+DA:15,57
+DA:16,362
+DA:17,124
+DA:18,124
+DA:19,124
+DA:20,57
 BRDA:10,15,0,1
-BRDA:10,15,1,52
-BRDA:16,87,1,117
-BRDA:16,87,0,52
+BRDA:10,15,1,57
+BRDA:16,87,1,124
+BRDA:16,87,0,57
 LF:101
 LH:101
 BRF:32
@@ -167,24 +167,24 @@ FNH:13
 end_of_record
 SF:C:\Users\Полина\S\OOAiP_SpaceBattle_2_course\SpaceBattle.Lib\AddCommand.cs
 FN:4,SpaceBattle.Lib.ICommand SpaceBattle.Lib.AddCommand::get_command()
-FNDA:2,SpaceBattle.Lib.ICommand SpaceBattle.Lib.AddCommand::get_command()
-DA:5,2
+FNDA:3,SpaceBattle.Lib.ICommand SpaceBattle.Lib.AddCommand::get_command()
+DA:5,3
 FN:5,System.Collections.Generic.Queue`1<SpaceBattle.Lib.ICommand> SpaceBattle.Lib.AddCommand::get_queue()
-FNDA:4,System.Collections.Generic.Queue`1<SpaceBattle.Lib.ICommand> SpaceBattle.Lib.AddCommand::get_queue()
-DA:6,4
+FNDA:6,System.Collections.Generic.Queue`1<SpaceBattle.Lib.ICommand> SpaceBattle.Lib.AddCommand::get_queue()
+DA:6,6
 FN:13,System.Void SpaceBattle.Lib.AddCommand::Execute()
-FNDA:2,System.Void SpaceBattle.Lib.AddCommand::Execute()
-DA:14,2
-DA:15,2
-DA:16,2
-DA:17,2
+FNDA:3,System.Void SpaceBattle.Lib.AddCommand::Execute()
+DA:14,3
+DA:15,3
+DA:16,3
+DA:17,3
 FN:6,System.Void SpaceBattle.Lib.AddCommand::.ctor(SpaceBattle.Lib.ICommand,System.Collections.Generic.Queue`1<SpaceBattle.Lib.ICommand>)
-FNDA:2,System.Void SpaceBattle.Lib.AddCommand::.ctor(SpaceBattle.Lib.ICommand,System.Collections.Generic.Queue`1<SpaceBattle.Lib.ICommand>)
-DA:7,2
-DA:8,2
-DA:9,2
-DA:10,2
-DA:11,2
+FNDA:3,System.Void SpaceBattle.Lib.AddCommand::.ctor(SpaceBattle.Lib.ICommand,System.Collections.Generic.Queue`1<SpaceBattle.Lib.ICommand>)
+DA:7,3
+DA:8,3
+DA:9,3
+DA:10,3
+DA:11,3
 LF:11
 LH:11
 BRF:0
@@ -194,8 +194,8 @@ FNH:4
 end_of_record
 SF:C:\Users\Полина\S\OOAiP_SpaceBattle_2_course\SpaceBattle.Lib\MacroCommand.cs
 FN:4,System.Collections.Generic.List`1<SpaceBattle.Lib.ICommand> SpaceBattle.Lib.MacroCommand::get_commands()
-FNDA:2,System.Collections.Generic.List`1<SpaceBattle.Lib.ICommand> SpaceBattle.Lib.MacroCommand::get_commands()
-DA:5,2
+FNDA:3,System.Collections.Generic.List`1<SpaceBattle.Lib.ICommand> SpaceBattle.Lib.MacroCommand::get_commands()
+DA:5,3
 FN:10,System.Void SpaceBattle.Lib.MacroCommand::Execute()
 FNDA:1,System.Void SpaceBattle.Lib.MacroCommand::Execute()
 DA:11,1
@@ -207,10 +207,10 @@ DA:16,1
 BRDA:12,40,1,2
 BRDA:12,40,0,1
 FN:5,System.Void SpaceBattle.Lib.MacroCommand::.ctor(System.Collections.Generic.List`1<SpaceBattle.Lib.ICommand>)
-FNDA:2,System.Void SpaceBattle.Lib.MacroCommand::.ctor(System.Collections.Generic.List`1<SpaceBattle.Lib.ICommand>)
-DA:6,2
-DA:7,1
-DA:8,1
+FNDA:4,System.Void SpaceBattle.Lib.MacroCommand::.ctor(System.Collections.Generic.List`1<SpaceBattle.Lib.ICommand>)
+DA:6,4
+DA:7,2
+DA:8,2
 LF:10
 LH:10
 BRF:2
@@ -218,20 +218,43 @@ BRH:2
 FNF:3
 FNH:3
 end_of_record
+SF:C:\Users\Полина\S\OOAiP_SpaceBattle_2_course\SpaceBattle.Lib\MacroStrategy.cs
+FN:7,SpaceBattle.Lib.ICommand SpaceBattle.Lib.MacroStrategy::MacroStrategyCommand(System.Object[])
+FNDA:1,SpaceBattle.Lib.ICommand SpaceBattle.Lib.MacroStrategy::MacroStrategyCommand(System.Object[])
+DA:8,1
+DA:9,1
+DA:10,1
+DA:12,1
+DA:13,1
+DA:15,5
+DA:16,1
+DA:17,1
+DA:18,1
+DA:20,1
+DA:21,1
+BRDA:15,120,1,1
+BRDA:15,120,0,1
+LF:11
+LH:11
+BRF:2
+BRH:2
+FNF:1
+FNH:1
+end_of_record
 SF:C:\Users\Полина\S\OOAiP_SpaceBattle_2_course\SpaceBattle.Lib\MovableAdapter.cs
 FN:7,System.Void SpaceBattle.Lib.MovableAdapter::set_position(VectorSpaceBattle.Vector)
-FNDA:4,System.Void SpaceBattle.Lib.MovableAdapter::set_position(VectorSpaceBattle.Vector)
-DA:8,4
+FNDA:6,System.Void SpaceBattle.Lib.MovableAdapter::set_position(VectorSpaceBattle.Vector)
+DA:8,6
 FN:8,VectorSpaceBattle.Vector SpaceBattle.Lib.MovableAdapter::get_velocity()
-FNDA:2,VectorSpaceBattle.Vector SpaceBattle.Lib.MovableAdapter::get_velocity()
-DA:9,2
+FNDA:3,VectorSpaceBattle.Vector SpaceBattle.Lib.MovableAdapter::get_velocity()
+DA:9,3
 FN:9,System.Void SpaceBattle.Lib.MovableAdapter::.ctor(System.Object[])
-FNDA:4,System.Void SpaceBattle.Lib.MovableAdapter::.ctor(System.Object[])
-DA:10,4
-DA:11,2
-DA:12,2
-DA:13,2
-DA:14,2
+FNDA:8,System.Void SpaceBattle.Lib.MovableAdapter::.ctor(System.Object[])
+DA:10,8
+DA:11,4
+DA:12,4
+DA:13,4
+DA:14,4
 LF:7
 LH:7
 BRF:0
@@ -246,11 +269,11 @@ DA:11,5
 DA:12,5
 DA:13,2
 FN:5,System.Void SpaceBattle.Lib.MoveCommand::.ctor(SpaceBattle.Lib.IMovable)
-FNDA:5,System.Void SpaceBattle.Lib.MoveCommand::.ctor(SpaceBattle.Lib.IMovable)
-DA:6,5
-DA:7,5
-DA:8,5
-DA:9,5
+FNDA:6,System.Void SpaceBattle.Lib.MoveCommand::.ctor(SpaceBattle.Lib.IMovable)
+DA:6,6
+DA:7,6
+DA:8,6
+DA:9,6
 LF:7
 LH:7
 BRF:0
