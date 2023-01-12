@@ -1,9 +1,5 @@
-﻿using System;
-using Moq;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Moq;
+
 
 namespace MySpaceShip.Numeric
 {

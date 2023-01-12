@@ -1,10 +1,8 @@
 ﻿using Hwdtech;
-using System;
-using System.Runtime.Serialization;
-using System.Collections.Generic;
+
 using Moq;
 using System.Diagnostics;
-using SpaceBattle.Lib;
+
 using MySpaceShip.Numeric;
 
 namespace MySpaceShipTests.NumericTests
