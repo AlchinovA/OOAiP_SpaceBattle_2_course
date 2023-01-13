@@ -192,6 +192,38 @@ BRH:0
 FNF:4
 FNH:4
 end_of_record
+SF:C:\Users\Полина\S\OOAiP_SpaceBattle_2_course\SpaceBattle.Lib\ExceptionHandlerStrategyCommandPriority.cs
+FN:6,System.Object SpaceBattle.Lib.ExceptionHandlerStrategyCommandPriority::Execute(System.Object[])
+FNDA:1,System.Object SpaceBattle.Lib.ExceptionHandlerStrategyCommandPriority::Execute(System.Object[])
+DA:7,1
+DA:8,1
+DA:9,1
+DA:11,1
+DA:13,1
+DA:14,1
+LF:6
+LH:6
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Users\Полина\S\OOAiP_SpaceBattle_2_course\SpaceBattle.Lib\ExceptionHandlerStrategyExceptionPriority.cs
+FN:6,System.Object SpaceBattle.Lib.ExceptionHandlerStrategyExceptionPriority::Execute(System.Object[])
+FNDA:1,System.Object SpaceBattle.Lib.ExceptionHandlerStrategyExceptionPriority::Execute(System.Object[])
+DA:7,1
+DA:8,1
+DA:9,1
+DA:11,1
+DA:13,1
+DA:14,1
+LF:6
+LH:6
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
 SF:C:\Users\Полина\S\OOAiP_SpaceBattle_2_course\SpaceBattle.Lib\MacroCommand.cs
 FN:4,System.Collections.Generic.List`1<SpaceBattle.Lib.ICommand> SpaceBattle.Lib.MacroCommand::get_commands()
 FNDA:3,System.Collections.Generic.List`1<SpaceBattle.Lib.ICommand> SpaceBattle.Lib.MacroCommand::get_commands()
