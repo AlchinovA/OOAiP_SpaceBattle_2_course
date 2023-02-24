@@ -1,5 +1,5 @@
-using Moq;
 using VectorSpaceBattle;
+using Moq;
 namespace SpaceBattle.Lib.Test;
 
 public class StartMoveCommandTest
